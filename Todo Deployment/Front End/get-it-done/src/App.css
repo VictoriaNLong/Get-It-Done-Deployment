@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,300&display=swap');
+
+
+
+.App {
+  background-color: #faf6f1;
+  margin: 0;
+  padding: 50px;
+  height: 100vh;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.app-body {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.top-border {
+    height: 5px;
+    background: #F6BD60;
+    margin-bottom: 1em;
+}
